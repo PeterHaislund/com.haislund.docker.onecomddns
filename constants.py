@@ -2,3 +2,4 @@
 #CONFIG_FILE = "c:/temp/config_cc.json"    
 STATUS_LOG = "/data/status.log"
 CONFIG_FILE = "/data/config.json"
+IP_FILE = "/data/last_ip.txt"
