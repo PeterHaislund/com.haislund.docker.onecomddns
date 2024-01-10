@@ -4,6 +4,9 @@ Docker image that update DNS values at One.com to the current detected IP addres
 
 Logic for updating one.com entries are taken from https://github.com/lgc-4/one.com-ddns-python-script
 
+# Docker container
+An already build image is available at Docker Hub: [peterhaislund/onecom_ddns](https://hub.docker.com/repository/docker/peterhaislund/onecom_ddns/general).
+
 ## Logging
 Logs are written to /data/status.log so mapping the /data directory to the Docker host might be a good idea.
 
